@@ -4,13 +4,13 @@ declared-services:
     label: Object-Storage
     plan: standard
 applications:
-- name: openobjectstore-swiftexample-v3
+- name: openObjectStore20GB
   path: .
   memory: 1024M
   instances: 1
   random-route: true
-  disk_quota: 512M
+  disk_quota: 20G
   buildpack: python_buildpack
   services:
-    - objectstorepublic
-  host: openobjectstore-swiftexample-v3
+    - objectStorePublic
+  host: openObjectStore20GB
