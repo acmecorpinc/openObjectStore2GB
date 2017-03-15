@@ -12,7 +12,7 @@ IBM Object Storage, out-of-the-box, doesn't provide public, unauthenticated acce
 2. Deploy the app in one of 2 ways: 
    - Click the **Deploy to Bluemix** button
 
-      [![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/7915d5ec79666591eac01ac5757934a7/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ibm-cds-labs/openobjectstore) 
+      [![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/7915d5ec79666591eac01ac5757934a7/button.svg)](https://bluemix.net/deploy?repository=https://github.com/acmecorpinc/openObjectStore2GB) 
    
    - Or, deploy for local development:
 	   1. Download and install the [Cloud Foundry CLI][cloud_foundry_url] tool
@@ -52,7 +52,7 @@ And voila! You now have your very own instance of the Python Hello World sample 
 3. Clone the app to your local environment from your terminal using the following command:
 
   ```
-  $ git clone https://github.com/ibm-cds-labs/openobjectstore.git
+  $ git clone https://github.com/acmecorpinc/openObjectStore2GB.git
   ```
 
 4. `cd` into this newly created directory
@@ -88,7 +88,7 @@ The primary source of debugging information for your Bluemix app is the logs. To
 For more detailed information on troubleshooting your application, see the [Troubleshooting section](https://www.ng.bluemix.net/docs/troubleshoot/troubleshoot.html) in the Bluemix documentation.
 
 ## Contribute
-We are more than happy to accept external contributions to this project, be it in the form of issues and pull requests. If you find a bug, please [create an issue](https://github.com/ibm-cds-labs/openobjectstore/issues) or even better, fork the project and submit a pull request with your fix! Pull requests will be evaulated on an individual basis based on value add to the sample application.
+We are more than happy to accept external contributions to this project, be it in the form of issues and pull requests. If you find a bug, please [create an issue](https://github.com/acmecorpinc/openObjectStore2GB/issues) or even better, fork the project and submit a pull request with your fix! Pull requests will be evaulated on an individual basis based on value add to the sample application.
 
 Here are some features we're looking to implement:
 
