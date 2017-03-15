@@ -19,7 +19,7 @@ IBM Object Storage, out-of-the-box, doesn't provide public, unauthenticated acce
 	   2. Clone the app to your local environment from your terminal using the following command:
 
 	      	```
-		$ git clone https://github.com/ibm-cds-labs/openobjectstore.git
+		$ git clone https://github.com/acmecorpinc/openObjectStore2GB.git
 		 ```
 
 	   3. `cd` into this newly created directory
