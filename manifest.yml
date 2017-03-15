@@ -3,15 +3,14 @@ declared-services:
   objectstorepublic:
     label: Object-Storage
     plan: standard
-
 applications:
-- name: openobjectstore
+- name: openobjectstore-swiftexample-v3
   path: .
   memory: 1024M
   instances: 1
-  domain: mybluemix.net
   random-route: true
   disk_quota: 512M
   buildpack: python_buildpack
   services:
-  - objectstorepublic
+    - objectstorepublic
+  host: openobjectstore-swiftexample-v3
